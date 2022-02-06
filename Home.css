@@ -1,6 +1,6 @@
  .u-section-1 {
-  min-height: 848px;
   background-image: linear-gradient(#aef5f1, #456289);
+  min-height: 848px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -41,15 +41,28 @@
   margin: 20px 0 0 26px;
 }
 
-.u-section-1 .u-image-2 {
-  min-height: 848px;
+.u-section-1 .u-layout-cell-2 {
+  min-height: 1088px;
   pointer-events: auto;
-  background-image: url("images/242ce8c587bce0b4de80e4ecaf91cd6cf233b85d182ac25e7beb3282af41561f8aed4b84cd4e0a80b4a282ed3051fe2a722e42467a314d301db54e_1280.png");
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-2 {
-  padding: 0 20px 30px 50px;
+  padding: 0 13px 30px;
+}
+
+.u-section-1 .u-video-1 {
+  height: 356px;
+  margin: 32px 0 0;
+}
+
+.u-section-1 .embed-responsive-1 {
+  position: absolute;
+}
+
+.u-section-1 .u-image-2 {
+  width: 651px;
+  height: 611px;
+  margin: 60px 0 0 7px;
 }
 
 @media (max-width: 1199px) {
@@ -80,8 +93,20 @@
     margin-left: 0;
   }
 
+  .u-section-1 .u-layout-cell-2 {
+    background-position: 50% 50%;
+    min-height: 897px;
+  }
+
+  .u-section-1 .u-video-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
   .u-section-1 .u-image-2 {
-    min-height: 590px;
+    width: 539px;
+    height: 505px;
+    margin-left: 0;
   }
 }
 
@@ -107,12 +132,13 @@
     font-size: 0.875rem;
   }
 
-  .u-section-1 .u-image-2 {
-    min-height: 416px;
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 687px;
   }
 
-  .u-section-1 .u-container-layout-2 {
-    padding-left: 30px;
+  .u-section-1 .u-image-2 {
+    width: 407px;
+    height: 381px;
   }
 }
 
@@ -129,8 +155,8 @@
     padding: 50px 230px 30px 10px;
   }
 
-  .u-section-1 .u-image-2 {
-    min-height: 393px;
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 859px;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -157,8 +183,13 @@
     font-size: 1.875rem;
   }
 
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 541px;
+  }
+
   .u-section-1 .u-image-2 {
-    min-height: 260px;
+    width: 320px;
+    height: 300px;
   }
 } .u-section-2 {
   background-image: none;
